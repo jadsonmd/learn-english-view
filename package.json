@@ -14,10 +14,23 @@
     "build": "node build/build.js"
   },
   "dependencies": {
-    "vue": "^2.5.2",
-    "vue-router": "^3.0.1"
+    "chartist": "0.11.0",
+    "google-maps": "3.3.0",
+    "vue": "2.6.3",
+    "vue-clickaway": "2.2.2",
+    "vue-github-buttons": "3.0.1",
+    "vue-material": "1.0.0-beta-8",
+    "vue-router": "3.0.2",
+    "vue-social-sharing": "2.3.3"
   },
   "devDependencies": {
+    "@vue/cli-plugin-babel": "3.4.0",
+    "@vue/cli-plugin-eslint": "3.4.0",
+    "@vue/cli-service": "3.4.0",
+    "@vue/eslint-config-prettier": "4.0.1",
+    "es6-promise": "4.2.5",
+    "node-sass": "4.11.0",
+    "sass-loader": "7.1.0",
     "autoprefixer": "^7.1.2",
     "babel-core": "^6.22.1",
     "babel-eslint": "^8.2.1",
@@ -78,7 +91,7 @@
     "url-loader": "^0.5.8",
     "vue-loader": "^13.3.0",
     "vue-style-loader": "^3.0.1",
-    "vue-template-compiler": "^2.5.2",
+    "vue-template-compiler": "2.6.3",
     "webpack": "^3.6.0",
     "webpack-bundle-analyzer": "^2.9.0",
     "webpack-dev-server": "^2.9.1",
